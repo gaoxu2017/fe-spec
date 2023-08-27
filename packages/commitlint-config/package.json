@@ -1,12 +1,12 @@
 {
   "name": "code-commitlint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "this is commit rule",
   "author": "gaoxu",
   "homepage": "",
   "main": "index.js",
   "files": [
-        "encode",
+    "encode",
     "commit",
     "lint"
   ]
