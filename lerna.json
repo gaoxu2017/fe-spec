@@ -1,12 +1,12 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "version": "0.0.2",
-  "pnpmClint": "pnpm",
+  "npmClient": "pnpm",
   "command": {
     "publish": {
       "npmClient": "npm",
       "message": "chore: publish %s",
-      "registry": "https://registry.npm.org/"
+      "registry": "https://registry.npmjs.org"
     },
     "packages": [
       "packages/*"
