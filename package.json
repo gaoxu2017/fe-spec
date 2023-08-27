@@ -1,6 +1,8 @@
 {
-  "name": "root",
+  "name": "gaoxu-commitlint",
   "private": true,
+  "author": "gaoxu",
+  "license": "ISC",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",
@@ -8,6 +10,7 @@
     "clean": "lerna clean && rm -rf node_modules",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress dev docs",
+    "deploy": "bash deploy.sh",
     "publish": "lerna publish"
   },
   "publishConfig": {
