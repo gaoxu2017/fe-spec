@@ -6,7 +6,7 @@
     "publish": {
       "npmClient": "npm",
       "message": "chore: publish %s",
-      "registry": "https://registry.npm.org"
+      "registry": "https://registry.npm.org/"
     },
     "packages": [
       "packages/*"
