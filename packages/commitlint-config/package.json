@@ -1,0 +1,14 @@
+{
+  "name": "code-commitlint-config",
+  "version": "0.0.0",
+  "description": "this is commit rule",
+  "author": "gaoxu <Gaoxu13167316938@163.com>",
+  "homepage": "",
+  "main": "index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/commitlint-config.test.js"
+  }
+}
