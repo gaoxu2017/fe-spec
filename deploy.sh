@@ -5,8 +5,6 @@ set -e
 
 #生成静态资源站点
 # push_addr=`git remote https://github.com/gaoxu2017/fe-spec.git --push origin`
-commit_info=`git descrite --all --always --long`
-dist_path=`docs\.vuepress\dist`
 push_branch=gh-pages
 
 npm run docs:build #生成静态资源站点
