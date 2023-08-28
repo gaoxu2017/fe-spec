@@ -10,7 +10,7 @@
     "clean": "lerna clean && rm -rf node_modules",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "deploy": "bash scripts/deploy-gh.sh",
+    "deploy": "bash deploy.sh",
     "publish": "lerna publish"
   },
   "publishConfig": {
