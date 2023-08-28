@@ -109,7 +109,7 @@ export default defineConfig4CustomTheme({
     footer: {
       createYear: 2023,
       copyrightInfo:
-        'encode studio | <a href="https://github.com/encode-studio-fe/fe-spec" target="_blank">github</a>',
+        'encode studio | <a href="https://github.com/gaoxu2017/fe-spec.git" target="_blank">github</a>',
     },
 
     extendFrontmatter: {
