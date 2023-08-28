@@ -21,7 +21,7 @@ git init
 git add -A
 git commit -m "deploy"
 
-git push -f https://github.com/gaoxu2017/fe-spec.git main:gh-pages
+git push -f $push_addr HEAD:$push_branch
 
 cd-
 #删除静态资源文件
