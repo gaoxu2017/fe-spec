@@ -4,7 +4,7 @@ export default defineConfig4CustomTheme({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: '印客学院',
+      title: '代码规范',
       description: '前端编码规范工程化',
     },
   },
@@ -103,7 +103,6 @@ export default defineConfig4CustomTheme({
         children: [{ title: 'encode-fe-lint', path: '/cli/encode-fe-lint.md' }],
       },
     ],
-    logo: '/img/logo.png',
     repo: 'encode-studio-fe/fe-spec',
     searchMaxSuggestions: 10,
     docsDir: 'docs',
@@ -115,8 +114,8 @@ export default defineConfig4CustomTheme({
 
     extendFrontmatter: {
       author: {
-        name: '澄怀',
-        link: 'https://github.com/encode-studio-fe/fe-sepc',
+        name: 'gaoxu',
+        link: 'https://gaoxu2017.github.io/fe-spec/',
       },
     },
   },

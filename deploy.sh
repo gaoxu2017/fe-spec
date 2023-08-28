@@ -23,7 +23,7 @@ git push -f https://github.com/gaoxu2017/fe-spec.git HEAD:$push_branch
 
 cd-
 #删除静态资源文件
-# rm -rf $dist_path
+rm -rf docs/.vuepress/dist
 
 
 # 如果发布到 https://<USERNAME>.github.io
