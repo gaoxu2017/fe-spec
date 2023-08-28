@@ -4,7 +4,7 @@
 set -e
 
 #生成静态资源站点
-push_addr=`git remote https://github.com/gaoxu2017/lintArrray-github.io.git --push origin`
+push_addr=`git remote https://github.com/gaoxu2017/fe-spec.git --push origin`
 commit_info=`git descrite --all --always --long`
 dist_path=`docs\.vuepress\dist`
 push_branch=gh-pages
@@ -20,11 +20,11 @@ cd docs/.vuepress/dist
 git init -A
 git commit -m "deploy"
 
-git push -f $push_addr HEAD:$push_branch
+git push -f https://github.com/gaoxu2017/fe-spec.git master:gh-pages
 
 cd-
 #删除静态资源文件
-rm -rf $dist_path
+# rm -rf $dist_path
 
 
 # 如果发布到 https://<USERNAME>.github.io
